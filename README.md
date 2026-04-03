@@ -5,19 +5,19 @@
 **Tema:** Futebol News  
 
 ##  Descrição do Projeto
-Desenvolvimento de uma home-page responsiva utilizando HTML5 e CSS
+Desenvolvimento de uma home-page responsiva utilizando HTML e CSS
 
 ---
 
 ##  Demonstração do Layout (Prints)
 
 ### Versão DESKTOP
-![Versão Desktop](./img/print-desktop.png)
+![Versão Desktop](./public/img/print-desktop.png)
 
 ### Versão MOBILE
-![Versão Mobile](./img/print-mobile-1.png) 
-![Versão Mobile](./img/print-mobile-2.png) 
-![Versão Mobile](./img/print-mobile-3.png) 
+![Versão Mobile](./public//img/print-mobile-1.png) 
+![Versão Mobile](./public/img/print-mobile-2.png) 
+![Versão Mobile](./public/img/print-mobile-3.png) 
 
 ---
 
