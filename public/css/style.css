@@ -1,0 +1,127 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #f0f4f0; 
+    color: #333; 
+    line-height: 1.6; 
+}
+
+header { 
+    background-color: #004d00; 
+    color: white; 
+    text-align: center; 
+    padding: 25px 0; 
+}
+
+header h1 { 
+    margin-bottom: 10px; 
+}
+
+nav a { 
+    color: white; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    font-weight: bold; 
+    font-size: 1.1em; 
+}
+
+.banner-principal { 
+    text-align: center; 
+    background-color: white; 
+    padding-bottom: 30px; 
+    border-bottom: 2px solid #ccc; 
+}
+
+.img-banner { 
+    width: 100%; 
+    height: auto; 
+    max-height: 350px; 
+    object-fit: cover; 
+    margin-bottom: 20px; 
+}
+
+.newsletter { 
+    background-color: #ddd; 
+    padding: 20px; 
+    display: inline-block; 
+    border-radius: 10px; 
+    border: 1px solid #ccc; 
+}
+
+.newsletter input { 
+    padding: 12px; 
+    margin: 5px; 
+    border-radius: 5px; 
+    border: 1px solid #bbb; 
+    width: 250px; 
+    max-width: 90%; 
+}
+
+.newsletter button { 
+    padding: 12px 25px; 
+    background-color: #004d00; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-weight: bold; 
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img { 
+    width: 100%; 
+    height: 180px; 
+    object-fit: cover; 
+    object-position: top; 
+}
+
+.card h3 { 
+    padding: 15px 10px 5px; 
+}
+
+.card p { 
+    padding: 0 15px 20px; 
+    color: #666; 
+    font-size: 0.95em; 
+}
+
+footer { 
+    background-color: #222; 
+    color: #ccc; 
+    text-align: center; 
+    padding: 20px; 
+    font-size: 0.9em; 
+}
+
+@media screen and (min-width: 768px) {
+    .conteudo-secundario {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 45%;
+    }
+}
